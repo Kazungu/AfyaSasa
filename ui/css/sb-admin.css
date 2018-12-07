@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 html {
   position: relative;
   min-height: 100%;
@@ -79,7 +79,6 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 .z-1 {
   z-index: 1;
 }
-
 .navbar-nav .form-inline .input-group {
   width: 100%;
 }
@@ -127,10 +126,14 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .sidebar {
   width: 90px !important;
-  background-color: #053769;
+  background-color: #2980b9;
   min-height: calc(100vh - 56px);
+  
 }
-
+.sidebar h2{
+  color: #c0392b;
+  font-family: 'Merriweather', serif;
+}
 .sidebar .nav-item:last-child {
   margin-bottom: 1rem;
 }
