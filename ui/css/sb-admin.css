@@ -126,12 +126,12 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .sidebar {
   width: 90px !important;
-  background-color: #2980b9;
+  background-color: #192a56;
   min-height: calc(100vh - 56px);
   
 }
 .sidebar h2{
-  color: #c0392b;
+  color: #f53b57;
   font-family: 'Merriweather', serif;
 }
 .sidebar .nav-item:last-child {
@@ -279,12 +279,21 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .card-login {
   max-width: 25rem;
+  background-color: #0fbcf9;
+  color: #f5f6fa;
+}
+.card-login a{
+  color:#f5f6fa;
 }
 
 .card-register {
   max-width: 40rem;
+  background-color: #0fbcf9;
+  color: #f5f6fa;
 }
-
+.card-register a{
+  color:#f5f6fa;
+}
 .form-label-group {
   position: relative;
 }
@@ -370,4 +379,9 @@ body.sidebar-toggled footer.sticky-footer {
   body.sidebar-toggled footer.sticky-footer {
     width: calc(100% - 90px);
   }
+}
+#loginpage{
+  background-image: url("../image/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
