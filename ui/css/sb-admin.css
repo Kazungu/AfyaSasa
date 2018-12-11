@@ -279,7 +279,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .card-login {
   max-width: 25rem;
-  background-color: #0fbcf9;
+  background-color: #0fbaf996;
   color: #f5f6fa;
 }
 .card-login a{
@@ -288,7 +288,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .card-register {
   max-width: 40rem;
-  background-color: #0fbcf9;
+  background-color: #0fbaf996;
   color: #f5f6fa;
 }
 .card-register a{

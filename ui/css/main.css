@@ -69,7 +69,11 @@ section h3.section-subheading {
   background-color: #36b5fe91;
   border-color: #36b5fe;
 }
-
+.btn-outline-danger{
+  margin: 10px;
+  color:white;
+  border:none; 
+}
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #e02c4470 !important;
   border-color: #e02c4470 !important;
@@ -223,7 +227,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading {
-  margin: 15px 0;
+  margin: 10px 0;
   text-transform: none;
 }
 .timeline {
